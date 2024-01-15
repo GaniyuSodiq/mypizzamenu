@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -45,40 +42,3 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-
-function App() {
-  return (
-    <div>
-      <Header />
-      <Menu />
-      <Footer />
-    </div>
-  );
-}
-
-function Header() {
-  return <h1>My Pizza Menu Co.</h1>;
-}
-
-function Menu() {
-  return (
-    <div>
-      <h2>Menu</h2>
-      <p>
-        Authentic italian cuisine. 6 creative dishes to choose from. All from
-        our store oven. All organic. All delicious
-      </p>
-    </div>
-  );
-}
-
-function Footer() {
-  return (
-    <div>
-      <p>We're open till 22:00, come visit us or oder</p>
-      <button>Order</button>
-    </div>
-  );
-}
-
-export default App;
